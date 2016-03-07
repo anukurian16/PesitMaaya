@@ -1,0 +1,303 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.appslabz.event"
+    android:versionCode="4"
+    android:versionName="1.3" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="16" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/finalmaaya"
+        android:label="@string/app_name"
+        android:theme="@style/CustomActionBarTheme" >
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Eventdet"
+            android:label="@string/title_activity_eventdet" >
+        </activity>
+        <activity
+            android:name=".Schedule"
+            android:label="@string/title_activity_schedule" >
+        </activity>
+        <activity
+            android:name=".CulturalEvents"
+            android:label="@string/title_activity_cultural_events" >
+        </activity>
+        <activity
+            android:name=".GroupSinging"
+            android:label="@string/title_activity_group_singing" >
+        </activity>
+        <activity
+            android:name=".FieldEvents"
+            android:label="@string/title_activity_field_events" >
+        </activity>
+        <activity
+            android:name=".FineArts"
+            android:label="@string/title_activity_fine_arts" >
+        </activity>
+        <activity
+            android:name=".InformalEvents"
+            android:label="@string/title_activity_informal_events" >
+        </activity>
+        <activity
+            android:name=".LiteraryEvents"
+            android:label="@string/title_activity_literary_events" >
+        </activity>
+        <activity
+            android:name=".Theatre"
+            android:label="@string/title_activity_theatre" >
+        </activity>
+        <activity
+            android:name=".Gaming"
+            android:label="@string/title_activity_gaming" >
+        </activity>
+        <activity
+            android:name=".Technical"
+            android:label="@string/title_activity_technical" >
+        </activity>
+        <activity
+            android:name=".MaayaIdol"
+            android:label="@string/title_activity_maaya_idol" >
+        </activity>
+        <activity
+            android:name=".ContemporaryGroupDance"
+            android:label="@string/title_activity_contemporary_group_dance" >
+        </activity>
+        <activity
+            android:name=".ContactUs"
+            android:label="@string/title_activity_contact_us" >
+        </activity>
+        <activity
+            android:name=".Workshops"
+            android:label="@string/title_activity_workshops" >
+        </activity>
+        <activity
+            android:name=".EventButtons"
+            android:label="@string/title_activity_event_buttons" >
+        </activity>
+        <activity
+            android:name=".ContemporaryDance"
+            android:label="@string/title_activity_contemporary_dance" >
+        </activity>
+        <activity
+            android:name=".Antakshari"
+            android:label="@string/title_activity_antakshari" >
+        </activity>
+        <activity
+            android:name=".StreetDance"
+            android:label="@string/title_activity_street_dance" >
+        </activity>
+        <activity
+            android:name=".WesternDance"
+            android:label="@string/title_activity_western_dance" >
+        </activity>
+        <activity
+            android:name=".FashionShow"
+            android:label="@string/title_activity_fashion_show" >
+        </activity>
+        <activity
+            android:name=".SoloDance"
+            android:label="@string/title_activity_solo_dance" >
+        </activity>
+        <activity
+            android:name=".Football"
+            android:label="@string/title_activity_football" >
+        </activity>
+        <activity
+            android:name=".Cricket"
+            android:label="@string/title_activity_cricket" >
+        </activity>
+        <activity
+            android:name=".Basketball"
+            android:label="@string/title_activity_basketball" >
+        </activity>
+        <activity
+            android:name=".Volleyball"
+            android:label="@string/title_activity_volleyball" >
+        </activity>
+        <activity
+            android:name=".Tabletennis"
+            android:label="@string/title_activity_tabletennis" >
+        </activity>
+        <activity
+            android:name=".FacePainting"
+            android:label="@string/title_activity_face_painting" >
+        </activity>
+        <activity
+            android:name=".Collage"
+            android:label="@string/title_activity_collage" >
+        </activity>
+        <activity
+            android:name=".Themephoto"
+            android:label="@string/title_activity_themephoto" >
+        </activity>
+        <activity
+            android:name=".Splash"
+            android:label="@string/title_activity_splash" >
+        </activity>
+        <activity
+            android:name=".Cooking"
+            android:label="@string/title_activity_cooking" >
+        </activity>
+        <activity
+            android:name=".ShortMovie"
+            android:label="@string/title_activity_short_movie" >
+        </activity>
+        <activity
+            android:name=".Beg"
+            android:label="@string/title_activity_beg" >
+        </activity>
+        <activity
+            android:name=".TreasureHunt"
+            android:label="@string/title_activity_treasure_hunt" >
+        </activity>
+        <activity
+            android:name=".Golgappa"
+            android:label="@string/title_activity_golgappa" >
+        </activity>
+        <activity
+            android:name=".Chilly"
+            android:label="@string/title_activity_chilly" >
+        </activity>
+        <activity
+            android:name=".Onlineth"
+            android:label="@string/title_activity_onlineth" >
+        </activity>
+        <activity
+            android:name=".Housie"
+            android:label="@string/title_activity_housie" >
+        </activity>
+        <activity
+            android:name=".Limbo"
+            android:label="@string/title_activity_limbo" >
+        </activity>
+        <activity
+            android:name=".Papertoss"
+            android:label="@string/title_activity_papertoss" >
+        </activity>
+        <activity
+            android:name=".GeneralQuiz"
+            android:label="@string/title_activity_general_quiz" >
+        </activity>
+        <activity
+            android:name=".Jam"
+            android:label="@string/title_activity_jam" >
+        </activity>
+        <activity
+            android:name=".CreativeWriting"
+            android:label="@string/title_activity_creative_writing" >
+        </activity>
+        <activity
+            android:name=".EssayWriting"
+            android:label="@string/title_activity_essay_writing" >
+        </activity>
+        <activity
+            android:name=".MadAds"
+            android:label="@string/title_activity_mad_ads" >
+        </activity>
+        <activity
+            android:name=".Personality"
+            android:label="@string/title_activity_personality" >
+        </activity>
+        <activity
+            android:name=".AirCraft"
+            android:label="@string/title_activity_air_craft" >
+        </activity>
+        <activity
+            android:name=".MockRock"
+            android:label="@string/title_activity_mock_rock" >
+        </activity>
+        <activity
+            android:name=".Bluffmaster"
+            android:label="@string/title_activity_bluffmaster" >
+        </activity>
+        <activity
+            android:name=".StreetPlay"
+            android:label="@string/title_activity_street_play" >
+        </activity>
+        <activity
+            android:name=".DumbCharades"
+            android:label="@string/title_activity_dumb_charades" >
+        </activity>
+        <activity
+            android:name=".Fifa"
+            android:label="@string/title_activity_fifa" >
+        </activity>
+        <activity
+            android:name=".CounterStrike"
+            android:label="@string/title_activity_counter_strike" >
+        </activity>
+        <activity
+            android:name=".Dota"
+            android:label="@string/title_activity_dota" >
+        </activity>
+        <activity
+            android:name=".Blur"
+            android:label="@string/title_activity_blur" >
+        </activity>
+        <activity
+            android:name=".Cod"
+            android:label="@string/title_activity_cod" >
+        </activity>
+        <activity
+            android:name=".Connect"
+            android:label="@string/title_activity_connect" >
+        </activity>
+        <activity
+            android:name=".Surf"
+            android:label="@string/title_activity_surf" >
+        </activity>
+        <activity
+            android:name=".StripFrame"
+            android:label="@string/title_activity_strip_frame" >
+        </activity>
+        <activity
+            android:name=".SplashScreen"
+            android:label="@string/title_activity_splash_screen" >
+        </activity>
+        <activity
+            android:name=".SandCasting"
+            android:label="@string/title_activity_sand_casting" >
+        </activity>
+        <activity
+            android:name=".MugMike"
+            android:label="@string/title_activity_mug_mike" >
+        </activity>
+        <activity
+            android:name=".Maayantra"
+            android:label="@string/title_activity_maayantra" >
+        </activity>
+        <activity
+            android:name=".Bollywood"
+            android:label="@string/title_activity_bollywood" >
+        </activity>
+        <activity
+            android:name=".News"
+            android:label="@string/title_activity_news" >
+        </activity>
+        <activity
+            android:name=".Secondprocess"
+            android:label="@string/title_activity_secondprocess" >
+        </activity>
+        <activity
+            android:name=".SchedMenu"
+            android:label="@string/title_activity_sched_menu" >
+        </activity>
+        <activity
+            android:name=".Sched2"
+            android:label="@string/title_activity_sched2" >
+        </activity>
+    </application>
+
+</manifest>

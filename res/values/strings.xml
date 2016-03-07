@@ -1,0 +1,585 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <string name="app_name">Maaya 2014</string>
+    <string name="hello_world">Regular updates during the event</string>
+    <string name="soon">Will be put up Shortly!</string>
+    <string name="action_settings">Settings</string>
+    <string name="background">#C3DBE7</string>
+    <string name="text_color">#ffffff</string>
+    <string name="title_activity_eventdet">Event details</string>
+    <string name="title_activity_schedule">Day1 (Click to add to Calendar)</string>
+    <string name="title_activity_cultural_events">Cultural Events</string>
+
+    <string-array android:id="@+id/stringarray1" name="EventCat" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <item android:id="@+id/item1" android:layout_width="wrap_content" android:layout_height="wrap_content">Cultural </item>
+        <item android:id="@+id/item2" android:layout_width="wrap_content" android:layout_height="wrap_content">Field</item>
+        <item android:id="@+id/item3" android:layout_width="wrap_content" android:layout_height="wrap_content">Fine Arts</item>
+        <item android:id="@+id/item4" android:layout_width="wrap_content" android:layout_height="wrap_content">Informal Events</item>
+        <item android:id="@+id/item5" android:layout_width="wrap_content" android:layout_height="wrap_content">Literary Events</item>
+        <item android:id="@+id/item6" android:layout_width="wrap_content" android:layout_height="wrap_content">Theatre</item>
+        <item android:id="@+id/item7" android:layout_width="wrap_content" android:layout_height="wrap_content">Gaming</item>
+        <item android:id="@+id/item8" android:layout_width="wrap_content" android:layout_height="wrap_content">Technical</item>
+    </string-array>
+    <string-array android:id="@+id/stringarray2" name="CulEvents" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <item android:id="@+id/item1" android:layout_width="wrap_content" android:layout_height="wrap_content">Group Singing</item>
+        <item android:id="@+id/item2" android:layout_width="wrap_content" android:layout_height="wrap_content">Maaya Idol</item>
+        <item android:id="@+id/item3" android:layout_width="wrap_content" android:layout_height="wrap_content">ContemporaryGroupDance</item>
+        <item android:id="@+id/item4" android:layout_width="wrap_content" android:layout_height="wrap_content">Antakshari</item>
+        <item android:id="@+id/item5" android:layout_width="wrap_content" android:layout_height="wrap_content">Street Dance</item>
+        <item android:id="@+id/item6" android:layout_width="wrap_content" android:layout_height="wrap_content">Western Dance</item>
+        <item android:id="@+id/item7" android:layout_width="wrap_content" android:layout_height="wrap_content">Bollywood Dance</item>
+        <item android:id="@+id/item8" android:layout_width="wrap_content" android:layout_height="wrap_content">Solo Dance</item>
+    </string-array>
+    <string-array android:id="@+id/stringarray3" name="FieldEvents" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <item android:id="@+id/item1" android:layout_width="wrap_content" android:layout_height="wrap_content">Street Football</item>
+        <item android:id="@+id/item2" android:layout_width="wrap_content" android:layout_height="wrap_content">Street Cricket</item>
+        <item android:id="@+id/item3" android:layout_width="wrap_content" android:layout_height="wrap_content">Street Basketball</item>
+        <item android:id="@+id/item4" android:layout_width="wrap_content" android:layout_height="wrap_content">Table Tennis</item>
+    </string-array>
+    <string-array android:id="@+id/stringarray4" name="FineArts" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <item android:id="@+id/item1" android:layout_width="wrap_content" android:layout_height="wrap_content">Face Painting</item>
+        <item android:id="@+id/item2" android:layout_width="wrap_content" android:layout_height="wrap_content">Collage</item>
+        <item android:id="@+id/item3" android:layout_width="wrap_content" android:layout_height="wrap_content">Splash Your Colours</item>
+        <item android:id="@+id/item4" android:layout_width="wrap_content" android:layout_height="wrap_content">Cooking Without Flame</item>
+        <item android:id="@+id/item5" android:layout_width="wrap_content" android:layout_height="wrap_content">Short Movie Making</item>
+    </string-array>
+    <string-array android:id="@+id/stringarray5" name="InformalEvents" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <item android:id="@+id/item1" android:layout_width="wrap_content" android:layout_height="wrap_content">Beg,Borrow,Steal</item>
+        <item android:id="@+id/item2" android:layout_width="wrap_content" android:layout_height="wrap_content">Treasure Hunt</item>
+        <item android:id="@+id/item3" android:layout_width="wrap_content" android:layout_height="wrap_content">Golgappa Eating</item>
+        <item android:id="@+id/item4" android:layout_width="wrap_content" android:layout_height="wrap_content">Rangoli</item>
+        <item android:id="@+id/item5" android:layout_width="wrap_content" android:layout_height="wrap_content">Online Treasure Hunt</item>
+        <item android:id="@+id/item6" android:layout_width="wrap_content" android:layout_height="wrap_content">Housie</item>
+        <item android:id="@+id/item7" android:layout_width="wrap_content" android:layout_height="wrap_content">Limbo</item>
+        <item android:id="@+id/item8" android:layout_width="wrap_content" android:layout_height="wrap_content">PaperToss</item>
+    </string-array>
+    <string-array android:id="@+id/stringarray6" name="Literary" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <item android:id="@+id/item1" android:layout_width="wrap_content" android:layout_height="wrap_content">E-Quiz</item>
+        <item android:id="@+id/item2" android:layout_width="wrap_content" android:layout_height="wrap_content">Jam</item>
+        <item android:id="@+id/item3" android:layout_width="wrap_content" android:layout_height="wrap_content">Creative Writing</item>
+        <item android:id="@+id/item4" android:layout_width="wrap_content" android:layout_height="wrap_content">Debate</item>
+    </string-array>
+    <string-array android:id="@+id/stringarray7" name="Theatre" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <item android:id="@+id/item1" android:layout_width="wrap_content" android:layout_height="wrap_content">Mad-Ads</item>
+        <item android:id="@+id/item2" android:layout_width="wrap_content" android:layout_height="wrap_content">Personality</item>
+        <item android:id="@+id/item3" android:layout_width="wrap_content" android:layout_height="wrap_content">Air Crash</item>
+        <item android:id="@+id/item4" android:layout_width="wrap_content" android:layout_height="wrap_content">Mock Rock</item>
+        <item android:id="@+id/item5" android:layout_width="wrap_content" android:layout_height="wrap_content">BluffMaster</item>
+        <item android:id="@+id/item6" android:layout_width="wrap_content" android:layout_height="wrap_content">Street Play</item>
+        <item android:id="@+id/item7" android:layout_width="wrap_content" android:layout_height="wrap_content">Dumb Charades</item>
+    </string-array>
+    <string-array android:id="@+id/stringarray8" name="Gaming" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <item android:id="@+id/item1" android:layout_width="wrap_content" android:layout_height="wrap_content">FIFA</item>
+        <item android:id="@+id/item2" android:layout_width="wrap_content" android:layout_height="wrap_content">Counter Strike 1.6</item>
+        <item android:id="@+id/item3" android:layout_width="wrap_content" android:layout_height="wrap_content">Dota2</item>
+        <item android:id="@+id/item4" android:layout_width="wrap_content" android:layout_height="wrap_content">BLUR</item>
+        <item android:id="@+id/item5" android:layout_width="wrap_content" android:layout_height="wrap_content">COD</item>
+    </string-array>
+    <string-array android:id="@+id/stringarray9" name="Technical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <item android:id="@+id/item1" android:layout_width="wrap_content" android:layout_height="wrap_content">CONNECT-IT</item>
+        <item android:id="@+id/item2" android:layout_width="wrap_content" android:layout_height="wrap_content">SURF-IT</item>
+        <item android:id="@+id/item3" android:layout_width="wrap_content" android:layout_height="wrap_content">STRIP N FRAME</item>
+    </string-array>
+    <string-array android:id="@+id/stringarray10" name="Workshops" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <item android:id="@+id/item1" android:layout_width="wrap_content" android:layout_height="wrap_content">Sand Casting</item>
+        <item android:id="@+id/item2" android:layout_width="wrap_content" android:layout_height="wrap_content">Mug To Mike(MUSICAL)</item>
+        <item android:id="@+id/item3" android:layout_width="wrap_content" android:layout_height="wrap_content">Maayantra(ROBOTICS)</item>
+        <item android:id="@+id/item4" android:layout_width="wrap_content" android:layout_height="wrap_content">Processing</item>
+    </string-array>
+  
+      <string-array android:id="@+id/stringarray11" name="Day1" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <item android:id="@+id/item1" android:layout_width="wrap_content" android:layout_height="wrap_content"><b>9:00 - 10:00</b> Inaugration\n(Mainstage) </item>
+        <item android:id="@+id/item2" android:layout_width="wrap_content" android:layout_height="wrap_content"><b>10:00 - 12:30</b> Maaya Idol\n(Seminar Hall 1) </item>
+        <item android:id="@+id/item3" android:layout_width="wrap_content" android:layout_height="wrap_content"><b>10:00 - 1:00</b> Processing workshop, Fun with science \n(phy and chem lab) </item>
+        <item android:id="@+id/item4" android:layout_width="wrap_content" android:layout_height="wrap_content"><b>10:30 - 4:30</b> Theme Related Photography, Short Movie Making\n(Mech blk 3rd flr) </item>
+        <item android:id="@+id/item5" android:layout_width="wrap_content" android:layout_height="wrap_content"><b>10:00 - 12:30</b> Strip n frame\n(M-201) </item>
+        <item android:id="@+id/item6" android:layout_width="wrap_content" android:layout_height="wrap_content"><b>10:30 - 12:00</b> Mock rock\n(Mainstage) </item>
+        <item android:id="@+id/item7" android:layout_width="wrap_content" android:layout_height="wrap_content"><b>10:30 - 12:00</b> Street Play\n(Quadrangle) </item>
+        <item android:id="@+id/item8" android:layout_width="wrap_content" android:layout_height="wrap_content"><b>11:00 - 4:30</b> Mug  to Mike\n(Seminar Hall 5) </item>
+        <item android:id="@+id/item9" android:layout_width="wrap_content" android:layout_height="wrap_content"><b>11:00 - 2:00</b> DC (prelims and finals), Face painting\n(classroom) </item>
+        <item android:id="@+id/item10" android:layout_width="wrap_content" android:layout_height="wrap_content"><b>11:00 - 4:00</b> Cricket,Football\n(Field) </item>
+        <item android:id="@+id/item11" android:layout_width="wrap_content" android:layout_height="wrap_content"><b>11:00 - 12:00</b> Beg, Borrow, Steal\n(∏ r2) </item>
+        <item android:id="@+id/item12" android:layout_width="wrap_content" android:layout_height="wrap_content"><b>12:00 - 1:30</b> Group Singing\n(Mainstage) </item>
+        <item android:id="@+id/item13" android:layout_width="wrap_content" android:layout_height="wrap_content"><b>12:00 - 2:30</b> Solo Dance\n(Quadrangle) </item>
+        <item android:id="@+id/item14" android:layout_width="wrap_content" android:layout_height="wrap_content"><b>12:00 - 1:30</b> Treasure Hunt\n(∏ r2) </item>
+        <item android:id="@+id/item15" android:layout_width="wrap_content" android:layout_height="wrap_content"><b>12:30 - 2:00</b> Antakshari\n(Seminar Hall 1) </item>
+        <item android:id="@+id/item16" android:layout_width="wrap_content" android:layout_height="wrap_content"><b>1:30 - 3:30</b> Personality\n(Mainstage) </item>
+        <item android:id="@+id/item17" android:layout_width="wrap_content" android:layout_height="wrap_content"><b>1:30 - 2:30</b> Golgappa eating\n(∏ r2) </item>
+        <item android:id="@+id/item18" android:layout_width="wrap_content" android:layout_height="wrap_content"><b>2:00 - 3:30</b> Bluffmaster\n(Seminar Hall 1) </item>
+        <item android:id="@+id/item19" android:layout_width="wrap_content" android:layout_height="wrap_content"><b>2:00 - 2:30</b> E-Quiz\n(Classroom) </item>
+        <item android:id="@+id/item20" android:layout_width="wrap_content" android:layout_height="wrap_content"><b>3:30 - 7:00</b> Cul-Nite\n(Main Stage) </item>       
+    </string-array>
+    
+     <string-array android:id="@+id/stringarray13" name="Day2" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <item android:id="@+id/item1" android:layout_width="wrap_content" android:layout_height="wrap_content"><b>9:00 - 5:30</b> Maayantra - Robotics workshop \n (Seminar Hall 2) </item>
+        <item android:id="@+id/item2" android:layout_width="wrap_content" android:layout_height="wrap_content"><b>9:30 - 12:00</b> Battle of Bands \n (Main Stage) </item>
+        <item android:id="@+id/item3" android:layout_width="wrap_content" android:layout_height="wrap_content"><b>10:30 - 12:30</b> Creative writing\n(Classroom) </item>
+        <item android:id="@+id/item4" android:layout_width="wrap_content" android:layout_height="wrap_content"><b>10:30 - 11:00</b> Limbo\n(Quadrangle) </item>
+        <item android:id="@+id/item5" android:layout_width="wrap_content" android:layout_height="wrap_content"><b>10:30 - 11:30</b> Rangoli\n(∏ r2) </item>
+        <item android:id="@+id/item6" android:layout_width="wrap_content" android:layout_height="wrap_content"><b>10:30 - 1:00</b> Splash the colors\n(Seminar Hall 5) </item>
+        <item android:id="@+id/item7" android:layout_width="wrap_content" android:layout_height="wrap_content"><b>10:30 - 1:30</b> Sand casting\n(F and F Lab) </item>
+        <item android:id="@+id/item8" android:layout_width="wrap_content" android:layout_height="wrap_content"><b>11:00 - 12:30</b> Air Crash\n(Seminar Hall 1) </item>
+        <item android:id="@+id/item9" android:layout_width="wrap_content" android:layout_height="wrap_content"><b>11:00 - 11:30</b> Paper Toss\n(Quadrangle) </item>
+        <item android:id="@+id/item10" android:layout_width="wrap_content" android:layout_height="wrap_content"><b>11:00 - 11:30</b> Taboo\n(Mech Blk, 3rd Floor) </item>
+        <item android:id="@+id/item11" android:layout_width="wrap_content" android:layout_height="wrap_content"><b>11:00 - 11:30</b> Table Tennis\n(Sportsroom) </item>
+        <item android:id="@+id/item12" android:layout_width="wrap_content" android:layout_height="wrap_content"><b>11:00 - 4:00</b> Street Basketball\n(Field) </item>
+        <item android:id="@+id/item13" android:layout_width="wrap_content" android:layout_height="wrap_content"><b>11:00 - 4:00</b> Street Cricket\n(Field) </item>
+        <item android:id="@+id/item14" android:layout_width="wrap_content" android:layout_height="wrap_content"><b>12:00 - 12:30</b> Housie\n(Classroom) </item>
+        <item android:id="@+id/item15" android:layout_width="wrap_content" android:layout_height="wrap_content"><b>12:00 - 2:00</b> Debate \n(3rd Floor, Mech Block) </item>
+        <item android:id="@+id/item16" android:layout_width="wrap_content" android:layout_height="wrap_content"><b>12:00 - 1:30</b> Cooking without flame \n Labs</item>
+        <item android:id="@+id/item17" android:layout_width="wrap_content" android:layout_height="wrap_content"><b>12:00 - 2:00</b> Mad Ads\n(Quadrangle) </item>
+        <item android:id="@+id/item18" android:layout_width="wrap_content" android:layout_height="wrap_content"><b>12:30 - 3:00</b> Jam\n(Seminar Hall 1) </item>
+        <item android:id="@+id/item19" android:layout_width="wrap_content" android:layout_height="wrap_content"><b>1:00 - 1:30</b> Connect it\n(Classroom) </item>
+        <item android:id="@+id/item20" android:layout_width="wrap_content" android:layout_height="wrap_content"><b>12:30 - 2:30</b> Treasure Hunt\n(∏ r2) </item>
+        <item android:id="@+id/item21" android:layout_width="wrap_content" android:layout_height="wrap_content"><b>1:30 - 4:00</b> Collage\n(Seminar Hall 5) </item>
+        <item android:id="@+id/item22" android:layout_width="wrap_content" android:layout_height="wrap_content"><b>2:00 - 4:00</b> Street Dance\n(Quadrangle) </item>
+        <item android:id="@+id/item23" android:layout_width="wrap_content" android:layout_height="wrap_content"><b>4:00 - 7:00</b> Crossroads\n(Mainstage) </item>
+        </string-array>
+    
+     
+     
+    <string-array android:id="@+id/stringarray12" name="Menu" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <item android:id="@+id/item1" android:layout_width="wrap_content" android:layout_height="wrap_content"><b>DAY 1</b></item>
+        <item android:id="@+id/item2" android:layout_width="wrap_content" android:layout_height="wrap_content"><b>DAY 2</b></item>
+    </string-array>
+
+    <string name="grpSinging"><b>Enthral the audience with harmonious
+melodies and mellifluous voices… After all, Music is an outburst of the soul. </b> \n\nRegistration Fee : Rs.300\n1st Prize : Rs.3000\n2nd Prize : Rs.Rs.1500\nRationale : Team of 6\n
+	\n\n<b>RULES:</b> 	\nOne entry per institution. 
+	\nEach team consists of 5 – 12 members (including the accompanists). 
+	\nTime limit: 6+1 minutes (singing) and 5 minutes (stage setup). 
+	\nMinimum of two vocals is compulsory. 
+	\nOriginal compositions are not allowed.
+	\nLyrics will be checked for vulgarity and profanity.
+\nAny pre-recorded music or sound will lead to disqualification of the team.
+\nEvery extra minute taken beyond the time limit will lead to reduction of 5% of the total marks scored.
+\nInstruments required are to be brought by participating teams itself.
+\Teams will be judged based upon song selection and presentation.\n\n </string>
+    <string name="maayaidol"><b>A platform for all you Taylor Swifts and Adam Levines out there to belt it out! The more versatile you are the better chance you have of walking away with the prestigious title of Maaya Idol! Get the audiences rooting for you as you sing from one round to the other… </b> 	\n\nRegistration Fee : Rs.50\n1st Prize : Rs.500\n2nd Prize : Rs. 250\nRationale : Individual\n
+	\n\n<b>RULES:</b> 	\nTwo entries per college. 
+\nHindi/English/Classical tracks only. 
+\nKaraoke of the song should be brought in a CD/DVD or a pen drive in .cda or .mp3 format only. (Other formats may not be supported on the computer. Use them at your own risk) 
+\nVersatility will fetch you more points! 
+\nOriginal compositions are not allowed. 
+\nLyrics will be checked for vulgarity and profanity. 
+\nTime limit of 2+1 minutes. 
+\nInstruments required are to be brought by the participating team itself. 
+\nJudgement will be based on the song selection and presentation.\n\n </string>
+    <string name="contempdance"><b>Depict dance as it actually is - a divine form of art. Let the audience travel on a journey of philosophy, mythology and ethnicity, as you showcase the true culture of India. </b> 	\n\nRegistration Fee : Rs.400\n1st Prize : Rs.4000\n2nd Prize : Rs.2000\nRationale : Team of 8\n
+	\n\n<b>RULES:</b> \n	One entry per institution. 
+\nEach team must have 8-10 participants. No lead dancer or solo performances are allowed at any point. 
+\nDuration of dance: 6+1 minutes. 
+\nThe performance MUST be based on a contemporary theme. 
+\nUsage of properties is allowed but it does not carry extra weightage. 
+\nPre-recorded music should be brought in a CD/DVD or a pen drive in .cda or .mp3 format only. (Other formats may not be supported on the computer. Use them at your own risk) 
+\nLive music is not allowed. 
+\nAny kind of fluid or flame is not allowed on stage. 
+\nVulgarity of any kind will lead to immediate disqualification.\n\n </string>
+    <string name="antakshari"><b>Shabd aur sur se bante hain geet, inme ho pakke toh tumhari hai jeet! </b> 	\n\nRegistration Fee : Rs.150\n1st Prize : Rs.1500\n2nd Prize : Rs.750\nRationale : Team of 3\n
+	\n\n<b>RULES:</b> 	\nEach team must have three members. 
+\nPreliminary written round. 
+\nFinal rounds will be announced on the day of the event.\n\n </string>
+    <string name="streetdance"><b>Locking, popping, breaking and krumping ... bring it all together!!
+         Improvise, socialise and encourage interaction and connect with spectators and the other dancers… 
+         Step up to the beat and bebop your way into the street! </b> 	\n\nRegistration Fee : Rs.300\n1st Prize : Rs.3000\n2nd Prize : Rs.1500\nRationale : Team of 8\n
+	\n\n<b>RULES:</b> 	\nOne entry per institution. 
+\nFour or up to ten participants in a team. 
+\nDuration of dance: 7+1 minutes. 
+\nUsage of props is allowed but it does not carry extra weightage. 
+\nPre-recorded music should be brought in a CD/DVD or a pen drive in .cda or .mp3 format only. (Other formats may not be supported on the computer. Use them at your own risk) 
+\nVulgarity of any kind will lead to immediate disqualification\n\n </string>
+    <string name="westerndance"><b>We dance for laughter, we dance for tears, we dance for madness, we dance for fears, we dance for hopes, 
+        we dance for screams, we are the dancers, and we create the dreams. 
+        Every day brings you a chance to breathe, kick off your shoes and dance. 
+        So get together and burn the dance floor with breath-taking moves and get the audience rooting for you. </b> 	\n\nRegistration Fee : Rs.400\n1st Prize : Rs.4000\n2nd Prize : Rs.2000\nRationale : Team of 8\n
+	\n\n<b>RULES:</b> 	\nOne entry per institution. 
+\nEach team must have 8-10 participants. No lead dancer or solo performances are allowed at any point. 
+\nDuration of dance: 7+1 minutes. 
+\nUsage of props is allowed but it does not carry extra weightage. 
+\nPre-recorded music should be brought in a CD/DVD or a pen drive in .cda or .mp3 format only. (Other formats may not be supported on the computer. Use them at your own risk) Live music is not allowed. 
+\nVulgarity of any kind will lead to immediate disqualification. \n\n</string>
+    <string name="fashionshow"><b>A brilliant mash of flamboyance, style and attitude that will redefine 
+        fashion as you know it. We promise to set your hearts racing as 
+        glamorous models set the ramp on fire with their attitude and
+         creative audacity! </b>          \n\nRegistration Fee : Rs.350\n1st Prize : Rs.3500\n2nd Prize : Rs.1750\nRationale : Team of 8\n
+         	\n\n<b>RULES:</b> 	\nOnly one entry per college. 
+\nMaximum of 12 participants per college. 
+\nNo skimpy/indecent clothing. 
+\nEmphasis will be given to apparel, portrayal and originality. 
+\nTime limit of 15 minutes, including an introduction of 2 minutes. Points will be reduced for exceeding the time limit. 
+\nTeams must bring a cd with the soundtrack in .mp3 format\n\n</string>
+    <string name="solodance"><b>And hand in hand, on the edge of the sand, 
+They danced by the light of the moon.-Edward Lear
+ MJ might not be amongst us but he is present in everyone of you who dance with their hearts. Just dance your heart out and get the crowd behind you.</b> 	\n\nRegistration Fee : Rs.100\n1st Prize : Rs.1000\n2nd Prize : Rs.500\nRationale : Individual\n
+	\n\n<b>RULES:</b> 	\nDuration of dance:4+1 minutes.
+\nUsage of props is allowed but does not carry any extra weightage.
+\nVulgarity of any kind will lead to immediate disqualification.
+\nPre-recorded music should be brought in a CD/DVD or pen drive in .mp3 format only.(Other formats may not be supported on the computer. Use them at your own risk.)
+\nLive music is not allowed.\n\n</string>
+    <string name="football"><b>All you budding Peles out there, heres a chance to battle it out at the hottest 5a- side tournament in town. </b>         \n\nRegistration Fee : Rs.350\n1st Prize : Rs.3000\n2nd Prize : Rs.1500\nRationale : Team of 5\n
+        	\n\n<b>RULES:</b> 	\nEach team must have five players + three substitutes. 
+\nDuration of game is 12 minutes. 
+\nA player can get back to the field even after getting substituted. 
+\nIn case of a tie, winner is decided on the basis of a penalty shootout. 
+\nA player can only score a goal once he crosses the half line.\n\n </string>
+    <string name="golgappa"><b>Eat Shamelessly!!!!! Thats the motto here…</b>         \n\nRegistration Fee : Rs.20\nPrize : Gift Vouchers \nRationale : Individual\n
+        \n\n<b>RULES:</b> \nContestants have to eat each Golgappa with all the filling. 
+\nGame time 5 minutes. </string>
+    <string name="cricket"><b>Is Cricket truly your religion? Heres a chance to find out! Come show your prowess in PESs own version of ‘Gully Cricket. </b> 	\n\nRegistration Fee : Rs.350\n1st Prize : Rs.3000\n2nd Prize : Rs.1500\nRationale : Team of 5\n
+	\n\n<b>RULES:</b> 	\nEach team must have five players. 
+\n5 overs per team with each batsman getting a maximum of 1 over. 
+\nA batsman is declared OUT if he manages to send the ball directly to the ropes. 
+\nA bowler cannot bend his knees while bowling.\n\n</string>
+    <string name="basketball"><b></b>         \n\nRegistration Fee : Rs.150\n1st Prize : Rs.1500\nRationale : Team of 3\n
+        	\n\n<b>RULES:</b> 	\nTeam of three+one. 
+\nDuration of the game will be for 10min, 2 periods of 5 minutes. 
+\nHalf court. 
+\nStandard rules of Basketball apply.\nIn case of a tie, go for a shoot out.\n\n </string>
+    <string name="bollywood"><b>A platform for all you desi kalakaars out there to belt it out! </b>         \n\nRegistration Fee : Rs.400\n1st Prize : Rs.4000\n2nd Prize : Rs.2000\nRationale : Team of 8\n
+        \n\n<b>RULES:</b>         \nOne entry per institution.
+\nEach team must have 8-10 participants. No lead dancer or solo performances allowed at any point.
+\nDuration of dance:7+1 minutes.
+\nUsage of props is allowed but it does not carry any extra weightage.
+\nPre-recorded music should be brought in a CD/DVD or pen drive in .mp3 format only.(Other formats may not be supported on the computer. Use them at your own risk.)
+\nLive music is not allowed.
+\nVulgarity of any kind will lead to immediate disqualification.\n\n</string>
+    <string name="tabletennis"><b></b>         \n\nRegistration Fee : Rs.100\n1st Prize : Rs.1000\nRationale : Team of 2\n
+         \n\n<b>RULES:
+\nEach team consists of two members.
+\nThree sets per game.
+\nStandard table tennis rules apply.
+\nThe refree’s decision will be final.</b></string>
+    <string name="facepainting"><b>Face painting is said to be a dream realized with a painters touch. Make the most of your canvas-the human face and paint something extraordinary. </b> \n\nRegistration Fee : Rs.50\n1st Prize : Rs.500\n2nd Prize : Rs.250\nRationale : Team of 2\n
+\n\n<b>RULES:</b> \nEach team must consist of two members (1 artist, 1 canvas) Time limit: 1 hour. 
+\nAll materials are to be brought by the participants. 
+\nNo reference to material is allowed.
+\nYour deign can be large, medium or small, but it must fit on the face and not on the head, neck or other body part.
+\nYou may include costumes, wigs, accessories, gemstones, glitter, feathers, silicon or prosthetics. \n\n</string>
+    <string name="collage"><b>Collage is a natural for the acrylic medium... gels, matte medium as an adhesive, standard-body acrylics, fluid acrylics, acrylic gouache or watercolour, metallic and interference colours – anything can happen and usually does. So let the creative juices flow and watch a masterpiece unfold! </b> \n\nRegistration Fee : Rs.50\n1st Prize : Rs.500\n2nd Prize : Rs.250\nRationale : Team of 2\n
+\n\n<b>RULES:</b> \nEach team has two members. 
+\nTime limit: 1 hour. 
+\nTheme will be given on the spot.
+\nBurning and use of scissors is forbidden. 
+\nChart paper will be provided. 
+\nAll other required materials are to be brought by the participants. \n\n </string>
+    <string name="themerelatedphotography"><b>A portrait is made not in the camera but on the other side of it. All you shutterbugs out there, come over and click pictures based on the theme.</b>         \n\nRegistration Fee : Rs.50\n1st Prize : Rs.500\n2nd Prize : Rs.250\nRationale : Individual\n
+         \n\n<b>RULES:</b> \nMaximum of two participants in a team. 
+\nTeams must get themselves registered any time before commencement of the event, and must submit the entries before the deadline. 
+\nParticipants are required to bring their own digital cameras. Only digital cameras are allowed. 
+\nParticipants will be provided with computers with Windows OS and a USB port only. The cameras will be checked before the event begins. 
+\nThe memory card will be cleared and a back-up will be created before the event.\n\n </string>
+    <string name="splashurcolours"><b>Bored of using the same old painting brush n doing the strokes?
+Try something new here. Use your fingers, scrubbers n al unwanted materials and bring out the uniqueness in ur art.</b> \n\nRegistration Fee : Rs.100\n1st Prize : Rs.1000\n2nd Prize : Rs.500\nRationale : Individual\n
+    \n\n<b>RULES:</b> \nUse any material other than paint brush.
+\nBring your own colour materials n painting equipments.
+\nDuration – 1 hour
+\nThis event is not theme related.\n\n</string>
+    <string name="cookingwithoutflame"><b>No flame, no fire… 
+\n Think you can cook a good meal by saving fuel? 
+\n Then here is a chance to cook a dish that will make other chefs go green… only with jealousy! </b> \n\nRegistration Fee : Rs.100\n1st Prize : Rs.1000\n2nd Prize : Rs.500\nRationale : Team of 3\n
+\n\n<b>RULES:</b> \nEach team consists of maximum three participants. 
+\nEach team has to prepare two items- one drink and one salad or dessert. 
+\nTime limit: 90 minutes. 
+\nRaw ingredients to be brought by the participants. 
+\nPartially/Fully cooked materials are not allowed. 
+\nNo provision for stove/oven will be given. Use of flame is not allowed. 
+\nNo alcoholic items are allowed. 
+\nDishes have to be purely vegetarian. 
+\nParticipants will be judged based on taste and presentation. 
+\nConsumption of supplies is not allowed. Tasting is allowed. 
+\nParticipants can bring any of these cutlery items - Spoons, 2 knives, glassware and crockery, forks, chopping board, straws, cake stand. 
+\nParticipants may also bring any of these raw materials - Fruits, fruit juices, vegetables, milk, sugar, chocolate bars, chocolate powder, tomato sauce, tabasco Sauce, curd, coffee, mayonnaise, vinegar, olive oil/sweet oil, salt, pepper, chilli powder, cream, food essence, ice, food colouring, fresh coriander, mint leaves, nuts, dessert wafers /biscuit (limited in plastic bags). \n\n</string>
+    <string name="shortmoviemaking"><b>Do you see yourself calling the shots in the blockbusters of the future? Want to upstage the Steven Spielbergs and Karan Johars of filmdom? Then here’s a great place top reveal your filming expertise.</b>         \n\nRegistration Fee : Rs.100\n1st Prize : Rs.1000\n2nd Prize : Rs.500\nRationale : Team of 3\n
+            \n\n<b>RULES:</b>         \nTime limit – 15 minutes
+\nThe director of the movie must be from the participating college.
+\nAny topic can be chosen to make the movie on.
+\nVulgarity of any kind will lead to disqualification.
+\nFilms may be in any language or have no dialogue at all.Foreign-language dialogue must have English subtitles.\n\n</string>
+    <string name="begborrow"><b>This MAAYA, get ready to put all your resources and contacts to a test to fetch the most radical and extraordinary things in this epic race. The participants will be given a list of things that they have to fetch with specific points allocated for each. Everything is fair in this war. For once, you wont be ostracized for begging, despised for borrowing or prosecuted for stealing. The team which earns the maximum points in the least time will be declared the winners. </b>         \n\nRegistration Fee : Rs.50\n1st Prize : Gift Vouchers\nRationale : Team of 3\n
+        \n\n<b>RULES:</b> \n	A maximum of six participants per team. 
+\nThe team that gets the maximum points in the least possible time will be declared the winner. \n\n</string>
+    <string name="treasurehunt"><b>Over the years, the Treasure Hunt has drawn immense footfall from everyone and it has never disappointed. The clues are anything between difficult and very difficult, ranging from anagrams to crypts, requiring pure general awareness as well as sheer mathematical aptitude! The fact that it is spread all over the campus makes it all the more exciting! Think you know your campus inside out? Think again!</b>         \n\nRegistration Fee : Rs.50\nPrize : Gift Vouchers\nRationale : Team of 2\n
+        \n\n<b>RULES:</b> \n	No limit on the number of team members. 
+\nTeams are required to crack a series of clues before emerging the worthy winners. 
+\nEach clue points to a landmark in the campus which is the source for their next clue. 
+\nThe first team to crack all the clues clinches the title. 
+\nThe team that cracks all the clues in the least possible time will be declared winners.\n\n </string>
+    <string name="Rangoli"><b> Floral print dresses might be the in-thing today. Can     you get the same on the ground? Spread your colours, show your talent. </b>
+                 \n\nRegistration Fee : Rs.20\nPrize : Gift Vouchers\nRationale : Individual\n
+        \n\n<b>RULES:</b> 
+        \nMaximum 3 in a team. 
+\nTime allotted is 30 minutes only.
+\nJudges will decide the winner.
+\nAny misbehaviour or misconduct will lead to disqualification without any warning.\n\n </string>
+    <string name="onlineth"><b>Crawl the web to find secret troves of knowledge, and unlock the next clue! Play Indiana Jones on the expanse of the Internet and WWW. </b>         \n\nRegistration Fee : Rs.20\n1Prize : Gift Vouchers\nRationale : Individual\n
+        	\n\n<b>RULES:</b> 	\nIt is an individual event. 
+\nEach web page will contain certain clues, which will lead to the next page. 
+\nThe person who reaches the farthest in the shortest time will be the winner. 
+\nAccess to internet will be allowed.</string>
+    <string name="housie"><b>Poke,Poke,Poke em all!!!!  
+\nHave fun with numbers!</b> 	\n\nRegistration Fee : Rs.20\n1Prize : Gift Vouchers\nRationale : Individual\n	 </string>
+    <string name="limbo"><b>How low can you go? Maaya features Limbo-The under Stick Dance.</b>         \n\nRegistration Fee : Rs.20\nPrize : Gift Vouchers\nRationale : Individual\n
+        \n\n<b>RULES:</b> \n	No skimpy clothing 
+\nTouching the ground with any other body part apart from your legs will lead to disqualification. </string>
+    <string name="papertoss"><b>How sharp is your aim? Put your skills of aiming to test.</b>         \n\nRegistration Fee : Rs.20\nPrize : Gift Vouchers \nRationale : Individual\n
+        	\n\n<b>RULES:</b> \n	Individual event. 
+\nJust have a good aim. (:P)</string>
+    <string name="equiz"><b>A great event for all the movie buffs out there. From Simpsons to Breaking Bad, Godzilla to Shawshank Redemption we love everything. A quiz based on TV shows and movies. You dont wanna miss this!!</b>         \n\nRegistration Fee : Rs.100\n1st Prize : Rs.1000\n2nd Prize : Rs.500\nRationale : Team of 2\n
+             \n\n<b>RULES:</b>         \nTwo members in a team.
+\nA preliminary round where 6 teams will be selected for the next round
+\nThree rounds for the 6 teams out of which two teams will win cash prize.\n\n</string>
+    <string name="creativewriting">       Have a different perception of everything? 
+Put your Creativity to test by taking part in this contest where you can opine in writing for or against the theme. 
+\n\nRegistration Fee : Rs.50\n1st Prize : Rs.500\n2nd Prize : Rs.250\nRationale : Individual\n
+\n\n <b>RULES:</b> \n Individual event
+
+\nAll the inventory required will be provided. 
+\nJudgment will be based on the creativity, clarity of concept and style                                      of writing .
+\n(Includes legibility, approach).
+ \n\n	</string>
+    <string name="jam"><b>Motor mouths, meet your match! Manifest your mettle in a minute at Stiff Upper Lip. Speak fluently in flawless Queen’s English as long as you can. Buzz when your opponents’ slip up. Do you have it in you to become the ultimate JAM master??? Come and prove yourself. Motor mouths, meet your match! Manifest your mettle in a minute at Stiff Upper Lip. Speak fluently in flawless Queen’s English as long as you can. Buzz when your opponents’ slip up. Do you have it in you to become the ultimate JAM master??? Come and prove yourself. </b>         \n\nRegistration Fee : Rs.50\n1st Prize : Rs.500\n2nd Prize : Rs.250\nRationale : Individual\n
+         	\n\n<b>RULES:</b> \nIndividual event
+\nEach participant is expected to speak clearly and fluently for a minute on a given topic. 
+\nOnly Queen’s English may be used. 
+\nOther participants may ring the buzzer to point out errors in grammar, pauses, and use of slang, stammers, dramatization and 	deviation to gain control. The reason for ringing the buzzer has to be mentioned. +10 points for a valid objection. -5 points for an invalid one. 
+\nThe decision of the JAM master will be final. The participant will be judged based on spontaneity, wit, use of Queen’s English, any other criteria the JAM Master may deem suitable during the event.      	
+\n\n        	</string>
+    <string name="debate"><b>How good are you in lecturing people and what is your power of knowledge? Here is a chance to prove it to the crowd. Enroll yourself for a verbal clash….THE DEBATE</b>         \n\nRegistration Fee : Rs.100\n1st Prize : Rs.1000\n2nd Prize : Rs.500\nRationale : Team of 2\n
+            \n\n<b>RULES:</b>         \nEach college is allowed to send a team of two speakers – one for and the other against the motion.
+\nTopics will be intimated to the teams one day prior to the event
+\nEach speaker is allowed 150 seconds to speak about the topic (either for or against) + 30 seconds of rebuttal (interjection).
+\nExceeding the specified time may result in loss of points.
+\nSwearing and use of vulgar language will be penalized.\n\n</string>
+    <string name="madad"><b>Advertise your own product in the wackiest way…! Its all about being catchy and entertaining! </b>     \n\nRegistration Fee : Rs.350\n1st Prize : Rs.3500\n2nd Prize : Rs.1750\nRationale : Team of 8\n    
+    \n\n<b>RULES:</b> 	\nEach team must consist of a maximum of ten members. 
+
+\nTime limit: 9+1 minutes (including stage setup and clearance). 
+\nThe languages allowed are English, Hindi and Kannada. 
+\nVulgarity of any kind will lead to disqualification.\n\n </string>
+    <string name="personaliy"><b>Go from being Campus Hero/Heroine to being the superstar of Maaya ! Glide your way through quirky fun rounds, and your wit and charm could make you walk away with the coveted Mr Maaya  and Miss. Maaya  titles! </b>         \n\nRegistration Fee : Rs.50\n1st Prize : Rs.500\n2nd Prize : Rs.500\nRationale : Individual\n
+        	\n\n<b>RULES:</b> 	\nIndividual Event. 
+\nThe participants have to crack the prelims and finals to win the Mr Maaya and Ms Maaya titles. 
+\nThe preliminary round will be a written one. 12 finalists will be selected. The rounds for the finals will be conducted by the judges.\n\n </string>
+    <string name="aircrash"><b>You think you deserve to live from a crashing plane? Put yourself in a celebritys shoes and tell us why! Lets see how well you can convince the judges why you ought to be given the parachute!</b>         \n\nRegistration Fee : Rs.50\n1st Prize : Rs.500\n2nd Prize : Rs.250\nRationale : Individual\n
+        	\n\n<b>RULES:</b> 	\nIndividual event. 
+\nThe participants are celebrities on a plane which is about to crash. The judges are the pilots. There is only one parachute left. Participants have to convince the judges about why they deserve the parachute. 
+\nVulgarity of any kind will lead to disqualification.\n\n </string>
+    <string name="mockrock"><b>All songs say beautiful stories but what if you mixed them all together and threw in Godzilla? Diversity in perspective renders any object, however trivial, priceless. Going over to the funny side, we bring to you thematic spoofs, where participants are required to present a story based on songs. We take you to the world of recreating songs and revisiting events in satirical ways and with sarcastic, witty cracks, tickling the funny bones of all the insomniacs out there. </b>         \n\nRegistration Fee : Rs.350\n1st Prize : Rs.3500\n2nd Prize : Rs.1750\nRationale : Team of 8\n
+        	\n\n<b>RULES:</b> 	\nMaximum number of participants per entry is six on stage and two off stage. 
+\nTeams have to present a story conveyed through songs. 
+\nTime limit: 8-15 minutes on stage. Points will be deducted for vulgarity. 
+\nNo props will be provided. Teams may use props if they want, for which prior permission is necessary. 
+\nNegative points for props usage without permission. 
+\nMusic if required must be given in mp3 format on a cd. 
+\nPoints will be awarded for creativity, humour, relevance to the theme and to the original content.\n\n </string>
+    <string name="bluffmaster"><b>This game show exposes the ability of the players to cheat, lie and deceive in order to win lucrative prizes. </b>         \n\nRegistration Fee : Rs.50\n1st Prize : Rs.500\n2nd Prize : Rs.250\nRationale : Individual\n
+        	\n\n<b>RULES:</b> \n	
+        	\nThe game will have n( n to be decided later) contestants in which n-1 will be honest and one will be pre-designated as a Bluff Master. Nobody else, including the host, will know who the Bluff Master is.
+\nFor each question, the players must come up with one of the r(around 5-10) most popular responses for that question.
+\nThe Bluff Master can secretly see all the answers to the questions on the game show, thereby getting a huge edge over all the participants, without making any of the other player suspicious.
+\nThe contestants will vote every round. If the Bluff Master gets exposed by voting, he will be out of the game and a new contestant will be made the Bluff Master randomly.
+\nOtherwise, the Bluff Master will vote out an honest player.
+\nThe process will continue till only two contestants are left.
+\nIn the last round, the audiences will be allowed to participate by voting for the person who they think is the Bluff Master(amongst the last 2 players).
+\nIf the polling fails to spot the Bluff Master, he/she will take home the entire prize. If not, then the last honest player will get the prize.
+\nApart from the winner, few of the top contestants voted out will be given prizes, directly related to their points obtained.
+        	\n\n</string>
+    <string name="streetplay"><b>Maaya brings to you, right from the streets, the exchange of ideologies with drama, full of humour and zeal, Street Play aka Nukkad Natak, which is an endeavour carried out to propagate social and political messages among the masses amidst the direct, intimate and effective means of theatre by means of shouts, chants, songs in catchy tunes and drums. </b>         \n\nRegistration Fee : Rs.300\n1st Prize : Rs.3000\n2nd Prize : Rs.1500\nRationale : Team of 8\n
+        	\n\n<b>RULES:</b> \n	The play may be in English or Hindi or Kannada. 
+\nTime limit of 20 minutes. 
+\nNegative points for exceeding the time limit. 
+\nAn introduction of participants is necessary after the play. (not included in time limit) 
+\nPoints will be deducted for vulgarity. 
+\nUse of mikes, lights and make-up is not allowed. 
+\nTeams may use props of their own if they want, for which prior permission from the event co-ordinator is necessary. Negative points if used without permission. 
+\nTeams must arrive at the venue 25 minutes before the event starts.\n\n </string>
+    <string name="dumbcharades"><b>Actions speak louder than words. But how fast can you convey words just through actions? Find out when you are pitted against the others in this silent race to find the good word. </b>         \n\nRegistration Fee : Rs.100\n1st Prize : Rs.1000\n2nd Prize : Rs.500\nRationale : Team of 3\n
+        \n\n<b>RULES:</b> 	\nEach team must consist of three members (including 1 actor). 
+\nThe actor is not allowed to talk or point at objects while acting. 
+\nSplitting of words is NOT allowed. 
+\nThe actor is not allowed to show letters or numbers. The participants can use codes for the same. \n\n</string>
+    <string name="fifa"><b>There is nothing better than playing your buds one-on-one and one-upping them on the field.
+\nNothing better, that is, except for FIFA tournaments!
+\nBring out the passion you possess for your favourite teams onto the virtual field of FIFA 14 and unleash your dominance over fellow mates to be crowned the KING of Football! </b> \n\nRegistration Fee : Rs.100\n1st Prize : Rs.1000\nRationale : Individual\n
+	\n\n<b>RULES:</b> \nIndividual event.
+\n4 minutes per half.
+\nNo use of special teams like International teams/World XI, etc.
+\nDecision of the organisers is binding.\n\n </string>
+    <string name="counter"><b>Alright..Lets Move Out...
+Its fast, its violent… You need skill,speed, grit and will power....
+Are you sure you can make it far?
+Prove it.… </b> \n\nRegistration Fee : Rs.400\n1st Prize : Rs.4000\n2nd Prize : Rs.2000\nRationale : Team of 5\n
+\n\n<b>RULES:</b> \nTeam size: 5 players
+\nMatches: Initial rounds: Race to 3.                                                                         		       Semifinals: Race to 5                                                       		                   Finals: Race to 7
+\nTime limit: 2.5 minutes per round
+\nStarting money: 800
+\nFreeze time at the beginning of round: 10 seconds
+\nBuy time: 25 seconds
+\nNo in-game bugs allowed
+\nScroll-jump not allowed
+\nMap Pool: Initial Rounds: $1000$, aa_dima2 , 32_aztecworld,aim_headshot.                                                                                                                                                                                                        
+               \nSemifinals and Finals: de_dust2, de_nuke, de_inferno\n\n</string>
+    <string name="dota"><b>Strategize and get the best combination of heroes to thrash the ancient of the other team. It does not matter if you are a DIRE or a RADIANT as long as the victory is yours.
+SO....ARE YOU READY TO DEFEND YOUR ANCIENT?</b> \n\nRegistration Fee : Rs.500\n1st Prize : Rs.5000\n2nd Prize : Rs.500\nRationale : Team of 5\n
+\n\n<b>RULES:</b> \nTeam of 5.
+\nCaptains Mode only.
+\nKnockout rounds.
+\nFinals will be best of 3 if time permits, else will be only 1 game.
+\nMap: Latest.
+\nEach game will be of 30 mins only.
+\nAt the end of 30 mins. the team having the highest score wins.
+\nIf the scores are level at 30th minute, the team which gets the 	next kill wins.
+	
+	\n\nNote: Semifinals and finals do not have time limit. 
+		Misconduct will lead to disqualification without warning. \n\n                      	                                                                                                                                                                      </string>
+    <string name="blur"><b>All you guys out there, its time to fire up your engine and keep em revving because its one against all. Remember, there is no second place…If you aint first, you aint through! 
+Think you are up for it? 
+You are good enough to step up the heat? 
+Then hop into your mean machine, step on the gas and let your ride roll!</b> \n\nRegistration Fee : Rs.100\n1st Prize : Rs.1000\nRationale : Team of 3\n
+\n\n<b>RULES:</b> \nNo cheats 
+\nNo in-game glitches
+\nNo shouting or arguing with organizers.
+\nOrganizers and Coordinators decision is final.\n\n</string>
+    <string name="cod"><b></b>         \n\nRegistration Fee : Rs.400\n1st Prize : Rs.3000\n2nd Prize : Rs.1500\nRationale : Team of 4\n
+        \n\n<b>RULES:</b>
+        \nModern Warfare 3
+        \nMaps will be based on toss
+        \nTime per round- 5 min
+        \nTeam deathmatch\n\n</string>
+    <string name="connect"><b>Connect-IT is a game where the participants need to connect the given images and say the correct word for our query.</b>       
+        \n\nRegistration Fee : Rs.100\n1st Prize : Rs.1000\n2nd Prize : Rs.500\nRationale : Team of 2
+          \n\n<b>RULES:</b>         \n2 Participants in a Team.
+\nThere are two rounds.
+\nRound  1: connect the images and give the correct answer
+\nRound 2: Event Rule will be given on spot.  
+\nAdditional Rules will be announced at the Event venue.
+\nJudges Decisions are Final.
+\nEvent Duration: 
+\n1 hour Event
+\n15 minutes Setting up
+\n15 minutes for making Decision.\n\n</string>
+    <string name="surf"><b>It is an Online event , where the participant will be given the Snapshot of a website , in which the participant has to Identify the Website Address by using a search Engine.</b>         \n\nRegistration Fee : Rs.100\n1st Prize : Rs.1000\n2nd Prize : Rs.500\nRationale : Team of 2\n	\n\n<b>RULES:</b>     \n2 Participants in a Team. 
+		\nParticipants can use any search Engine. 
+		\nAdditional Rules will be announced at the Event venue. 
+		\nJudges Decisions are Final. 
+		\nTools Provided:\nWeb browser:Mozilla Firefox\nImage Clipping Tool
+    \nEvent Duration :
+		\n30 minutes Event 
+		\n15 minutes Setting up 
+		\n15 minutes for making Decision. \n\n   </string>
+    <string name="stripnframe"><b>Strip n Frame is a contest involving hands-on dismantling and assembling of an entire cycle which puts a test for the practical and technical skill of the contestants. Fastest team to strip down and assemble the entire cycle in the approved manner will be proclaimed as winner.</b>         \n\nRegistration Fee : Rs.100\nRationale : Team of 3\n
+        \n\n <b>RULES:</b>         \nNot more than three contestants are allowed per team.
+\nStudents irrespective of the department can take part in this contest.
+\nTools required for assembling and dismantling will be provided.
+\nAdditional tools bought by the contestants will not be allowed.
+\nEach team will be given a maximum time limit of 15mins.
+\nPoints are awarded on the basis of time taken and appropriate assembly of the cycle.
+\nParticipants should comply with the above mentioned rules.
+\nTeams violating any rules above mentioned will lead to direct expulsion from the contest.\n\n</string>
+    <string name="processing"><b>The event has two parts. 
+The first part is a workshop on how to use processing 2( a programming language for coders and visual artists). It will take about an hour. </b>
+ \n\nRegistration Fee : Rs.100\n1st Prize : Rs.1000\n2nd Prize : Rs.500\nRationale : Individual
+
+ \n\n<b>RULES:</b> \nThis will be a 2 hour event. 
+\nThere will be three questions. 
+\nEach one harder than the previous one with difficulty level of beginner, intermediate and advanced.
+\nBased on the number of questions solved and the difficulty level of that question, the contestant will be awarded.
+\nContestant should show their registration slip/receipt and college ID on the day of the workshop.\n\n</string>
+    <string name="sandcasting"><b>    Being a Mech Engineer…. How curious are you to know the best way to manufacture a product? Here is a chance for you to train yourself by the industrial experts in sand casting.Get into the lab and to explore the ways to cast products..!</b></string>
+    <string name="mugmike"><b>A platform for all you singers/non singers to who want to become Taylor Swifts and Adam Levines out there to belt it out!
+This workshop is designed keeping in mind the many people who just love to sing at office parties or other gatherings (and mostly film songs), though they have never had the opportunity or time to learn music formally. 
+
+This is an initiative to make learning singing easy and fun, like never before!
+
+The main highlight of this workshop is that it provides on a platter the basics of traditional training and also tips and tricks of singing including voice culture, studio singing and other nuances of film singing, that are not taught usually in traditional music systems.
+
+Also, the participant gets to record his or her voice in a high end studio, a truly unique experience for the bathroom singer! 
+
+The workshop is being conducted by Sunil Koshy, creator of India s first Audio Film, REBOOT. 
+Sunil Koshy is a trained singer and techie, who has recorded with leading musicians like Keith Peters, Alwyn Fernandes, UstadFaiyaz Khan and top lyricists like JayantKaikini.
+
+He has taken sabbaticals from working as a techie going in search of music gurus, and has learnt from some of the best gurus across the country.</b> \n\nRegistration Fee : Rs.200/300\nRationale : Individual\n\n\n<b>RULES:</b> \nHindi/English/Kannada/Tamil tracks only. 
+\nKaraoke of the song should be brought in a CD/DVD or a pen drive in .mp3 format only. (Other formats may not be supported on the computer. Use them at your own risk) 
+\nBoth Individual and Group Entries allowed.
+\nNo time limit
+\nA lot of prizes to be won!!!!\n\n</string>
+    <string name="maayantra"><b>Discover the creativity and innovation in you! 
+Your first step towards Artificial Intelligence!! Explore the world of robotics with Arduino.
+ A 2-day hands on workshop designed for absolute beginners! 
+ Learn to build an autonomous robot that can navigate on a black line, avoid obstacles, follow the wall and avoid from falling off the edge!</b>  \n\nRegistration Fee : Rs.3600\nRationale : Team of 3\n 	\n\n<b> RULES:</b> \nPre-requisite : Basic C programming.
+\nMax of 3 in a team.
+ \nMembers of a team can be from different dept. or colleges. 
+\nEvery team should carry a laptop.
+\nTeams should show their registration slip/receipt and college ID on the day of the workshop.
+\n\n</string>
+    <string name="contact"><b>Email:\nmaayateam2014@gmail.com	\n\nNIKHILESH:\t+91 9632901799\nKRISHNA  :\t+91 9591971821\nGAGAN   :\t+91 9900896690</b></string>
+    <string name="title_activity_group_singing">Group Singing</string>
+    <string name="title_activity_field_events">Field Events</string>
+    <string name="title_activity_fine_arts">Fine Arts</string>
+    <string name="title_activity_informal_events">Informal Events</string>
+    <string name="title_activity_literary_events">Literary Events</string>
+    <string name="title_activity_theatre">Theatre</string>
+    <string name="title_activity_gaming">Gaming</string>
+    <string name="title_activity_technical">Technical</string>
+    <string name="title_activity_maaya_idol">Maaya Idol</string>
+    <string name="title_activity_contemporary_group_dance">Contemporary Group Dance</string>
+    <string name="title_activity_contact_us">Contact Us</string>
+    <string name="title_activity_workshops">Workshops</string>
+    <string name="title_activity_event_buttons">Event Buttons</string>
+    <string name="title_activity_contemporary_dance">Contemporary Dance</string>
+    <string name="title_activity_antakshari">Antakshari</string>
+    <string name="title_activity_street_dance">Street Dance</string>
+    <string name="title_activity_western_dance">Western Dance</string>
+    <string name="title_activity_fashion_show">Fashion Show</string>
+    <string name="title_activity_solo_dance">Solo Dance</string>
+    <string name="title_activity_football">Football</string>
+    <string name="title_activity_cricket">Cricket</string>
+    <string name="title_activity_basketball">Basketball</string>
+    <string name="title_activity_volleyball">Volleyball</string>
+    <string name="title_activity_tabletennis">Tabletennis</string>
+    <string name="title_activity_face_painting">FacePainting</string>
+    <string name="title_activity_collage">Collage</string>
+    <string name="title_activity_themephoto">Themephoto</string>
+    <string name="title_activity_splash">Splash</string>
+    <string name="title_activity_cooking">Cooking</string>
+    <string name="title_activity_short_movie">ShortMovie</string>
+    <string name="title_activity_beg">Beg</string>
+    <string name="title_activity_treasure_hunt">TreasureHunt</string>
+    <string name="title_activity_golgappa">Golgappa</string>
+    <string name="title_activity_chilly">Chilly</string>
+    <string name="title_activity_onlineth">Onlineth</string>
+    <string name="title_activity_housie">Housie</string>
+    <string name="title_activity_limbo">Limbo</string>
+    <string name="title_activity_papertoss">Papertoss</string>
+    <string name="title_activity_general_quiz">GeneralQuiz</string>
+    <string name="title_activity_jam">Jam</string>
+    <string name="title_activity_creative_writing">CreativeWriting</string>
+    <string name="title_activity_essay_writing">Debate</string>
+    <string name="title_activity_mad_ads">MadAds</string>
+    <string name="title_activity_personality">Personality</string>
+    <string name="title_activity_air_craft">AirCrash</string>
+    <string name="title_activity_mock_rock">MockRock</string>
+    <string name="title_activity_bluffmaster">Bluffmaster</string>
+    <string name="title_activity_street_play">StreetPlay</string>
+    <string name="title_activity_dumb_charades">DumbCharades</string>
+    <string name="title_activity_fifa">Fifa</string>
+    <string name="title_activity_counter_strike">CounterStrike</string>
+    <string name="title_activity_dota">Dota</string>
+    <string name="title_activity_blur">Blur</string>
+    <string name="title_activity_cod">Cod</string>
+    <string name="title_activity_connect">Connect</string>
+    <string name="title_activity_surf">Surf</string>
+    <string name="title_activity_strip_frame">Strip N Frame</string>
+    <string name="title_activity_splash_screen">SplashScreen</string>
+    <string name="title_activity_sand_casting">SandCasting</string>
+    <string name="title_activity_mug_mike">Mug N Mike</string>
+    <string name="title_activity_maayantra">Maayantra</string>
+    <string name="title_activity_processing">Processing</string>
+    <string name="title_activity_bollywood">Bollywood</string>
+    <string name="title_activity_news">News</string>
+    <string name="title_activity_secondprocess">Secondprocess</string>
+    <string name="title_activity_sched_menu">Schedule</string>
+    <string name="title_activity_sched2">Day2 (Click to add to Calendar)</string>
+
+</resources>
